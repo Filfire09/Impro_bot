@@ -7,5 +7,5 @@ Client.on("ready", () => {
     console.log("The bot is ready to be used");
 
 })
-
+console.log("Je vous emmerde");
 Client.login("Nzc5ODIyNjUxMzIwMzAzNjY3.X7mIcA.NrnoLU8hZA2bkB_zVpTmraKLQ5o")
