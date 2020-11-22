@@ -8,4 +8,11 @@ Client.on("ready", () => {
 
 });
 
-Client.login("Nzc5ODIyNjUxMzIwMzAzNjY3.X7mIcA.NrnoLU8hZA2bkB_zVpTmraKLQ5o");
+/*Client.on("message", message => {
+    if (message.content === "test") {
+        message.channel.send("Hello world");
+    }
+});*/
+
+
+Client.login("Nzc5ODIyNjUxMzIwMzAzNjY3.X7mIcA.FSuaXra1L2w9c0pNnuJtnass2Ww");
