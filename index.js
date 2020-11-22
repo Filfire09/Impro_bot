@@ -11,11 +11,13 @@ Client.on("ready", () => {
 
 });
 
-/*Client.on("message", message => {
-    if (message.content === "test") {
+Client.on("message", message => {
+    if (message.author.bot) return;
+    if (message.channel.type == "dm") return;
+    if (message.content.startsWith(prefix + "test")) {
         message.channel.send("Hello world");
     }
-});*/
+});
 
 
 Client.login(token);
