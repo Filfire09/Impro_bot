@@ -1,7 +1,10 @@
 // JavaScript source code
 const Discord = require("discord.js");
 const prefix = "!";
+const fs = require("fs")
+const { token } = require("./token.js");
 Client = new Discord.Client;
+
 
 Client.on("ready", () => {
     console.log("The bot is ready to be used");
@@ -15,4 +18,4 @@ Client.on("ready", () => {
 });*/
 
 
-Client.login("Nzc5ODIyNjUxMzIwMzAzNjY3.X7mIcA.FSuaXra1L2w9c0pNnuJtnass2Ww");
+Client.login(token);
